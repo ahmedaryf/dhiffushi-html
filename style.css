@@ -55,6 +55,10 @@
   border-radius: 10px;
   cursor: pointer;
 }
+.explore-btn:hover {
+  background-color: blue;
+  color: #fff;
+}
 /* welcome page css */
 .welcomebanner img {
   width: 100%;

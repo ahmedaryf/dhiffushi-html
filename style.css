@@ -21,19 +21,19 @@
   height: 100px;
   cursor: pointer;
 }
-.nev-list {
+.nav-list {
   display: flex;
   gap: 24px;
   list-style: none;
 }
-.nev-list a {
+.nav-list a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
-  padding: 0 10px;
+  padding: 10px 10px;
 }
-.nev-list a:hover {
+.nav-list a:hover {
   background-color: #000;
 }
 .main-content {
@@ -49,11 +49,12 @@
   font-size: 90px;
 }
 .explore-btn {
-  padding: 5px 20px;
+  padding: 10px 20px;
   background-color: #fff;
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  font-size: 16px;
 }
 .explore-btn:hover {
   background-color: blue;

@@ -10,23 +10,54 @@
     <header>
       <!-- navbar -->
       <nav class="navbar">
+        <!-- desktop navbar -->
         <div class="nav-items">
-          <img class="logo" src="travel-logo.jpg" />
+          <a href="/">
+            <img class="logo" src="./logo/travel-logo.jpg" />
+          </a>
           <ul class="nav-list">
             <li><a href="/">home</a></li>
             <li><a href="./welcome.html">welcome</a></li>
-            <li><a href="#">plan your visit</a></li>
-            <li><a href="#">things to do</a></li>
-            <li><a href="#">gallery</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="./planyourvisit.html">plan your visit</a></li>
+            <li><a href="./thingstodo.html">things to do</a></li>
+            <li><a href="./gallery.html">gallery</a></li>
+            <li><a href="./contact.html">contact</a></li>
+          </ul>
+        </div>
+        <!-- mobile navbar -->
+        <div class="mobile-nav">
+          <div class="mobile-menu-icon">
+            <a href="/">
+              <img class="logo" src="./logo/travel-logo.jpg" />
+            </a>
+            <img
+              onclick="show()"
+              class="open"
+              src="./icons/menu-icon.svg"
+              width="40"
+              height="40" />
+            <img
+              onclick="hide()"
+              class="close"
+              src="./icons/close.svg"
+              width="40"
+              height="40" />
+          </div>
+          <ul class="mobile-nav-list">
+            <li><a href="/">home</a></li>
+            <li><a href="./welcome.html">welcome</a></li>
+            <li><a href="./planyourvisit.html">plan your visit</a></li>
+            <li><a href="./thingstodo.html">things to do</a></li>
+            <li><a href="./gallery.html">gallery</a></li>
+            <li><a href="./contact.html">contact</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <!-- banner video -->
-    <div class="banner">
+    <div class="homepage-banner">
       <video autoplay loop muted width="100%" height="auto">
-        <source src="video-1.mp4" />
+        <source src="./videos/video-1.mp4" />
       </video>
     </div>
     <!-- explore content -->
@@ -34,5 +65,7 @@
       <h1>EXPLORE</h1>
       <button class="explore-btn">Explore</button>
     </div>
+    <!-- script file to toggle open close mobile navbar -->
+    <script src="script.js"></script>
   </body>
 </html>
